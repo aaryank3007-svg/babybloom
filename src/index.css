@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #383034;
+    background-color: #FAF7F4;
+    letter-spacing: -0.01em;
+  }
+  
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-subheading {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Luxury Soft Pastel Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #E3BCC4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D39EA8;
+}
